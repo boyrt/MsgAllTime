@@ -6,7 +6,7 @@ import {
     AccessibilityInfo
 } from 'react-native';
 
-export default class ScreenReaderStatusPage extends React.Component {
+export default class ScreenReaderStatusPage extends Component {
     state = {
         screenReaderEnabled: false,
     };
