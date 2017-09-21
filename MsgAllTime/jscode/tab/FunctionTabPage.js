@@ -26,6 +26,8 @@ export default class FunctionTabPage extends Component {
 
                 <ListRow title='ScreenReaderStatusPage' detail='ScreenReaderStatusPage' onPress={() =>this.goPage('ScreenReaderStatusPage','ScreenReaderStatusPage')} />
 
+                <ListRow title='MaskedView' detail='MaskedView' onPress={() =>this.goPage('MaskedViewPage','MaskedView')} />
+
             </ScrollView>
         );
     }

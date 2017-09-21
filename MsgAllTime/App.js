@@ -51,7 +51,7 @@ import TimerPage from './jscode/componentPage/TimerPage'
 import ParcelPage from './jscode/doubleList/ParcelPage'
 import QrCodePage from './jscode/functionPage/QrCodePage'
 import ScreenReaderStatusPage from './jscode/functionPage/ScreenReaderStatusPage'
-
+import MaskedViewPage from './jscode/functionPage/MaskedViewPage'
 
 const ComponentIcon = require('./jscode/tab/imgs/ic_tab_cart.png')
 const ComponentPressIcon = require('./jscode/tab/imgs/ic_tab_cart_press.png')
@@ -166,6 +166,7 @@ const App = StackNavigator({
     ParcelPage:{screen:ParcelPage},
     QrCodePage:{screen:QrCodePage},
     ScreenReaderStatusPage:{screen:ScreenReaderStatusPage},
+    MaskedViewPage:{screen:MaskedViewPage},
 
 });
 
